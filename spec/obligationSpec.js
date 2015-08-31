@@ -45,7 +45,7 @@ describe("Obligation", function() {
     });
   });
 
-  describe("when resolving asynchronously", function() {
+  describe("when calling callbacks asynchronously", function() {
     var myvar, firstCallback, secondCallback;
 
     beforeEach(function(done) {
